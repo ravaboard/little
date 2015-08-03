@@ -32,8 +32,8 @@
 	cd {{ $path }};
 	git clone {{ $repo }} --branch={{ $branch }} --depth=1 {{ $release }};
 	echo "Repository cloned";
-	mv {{ $release }}/storage {{ $path }}/storage;
-	ln -s {{ $path }}/storage {{ $release }}/storage;
+	mv {{ $release }}/app/storage {{ $path }}/app/storage;
+	ln -s {{ $path }}/app/storage {{ $release }}/app/storage;
 	echo "Storage directory set up";
 	cp {{ $release }}/.env.example {{ $path }}/.env;
 	ln -s {{ $path }}/.env {{ $release }}/.env;

@@ -1,0 +1,15 @@
+[2015-07-27 08:40:40,019][INFO ][node                     ] [Noh-Varr] version[0.90.5], pid[4260], build[c8714e8/2013-09-17T12:50:20Z]
+[2015-07-27 08:40:40,020][INFO ][node                     ] [Noh-Varr] initializing ...
+[2015-07-27 08:40:40,028][INFO ][plugins                  ] [Noh-Varr] loaded [], sites []
+[2015-07-27 08:40:43,680][INFO ][node                     ] [Noh-Varr] initialized
+[2015-07-27 08:40:43,681][INFO ][node                     ] [Noh-Varr] starting ...
+[2015-07-27 08:40:43,838][INFO ][transport                ] [Noh-Varr] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/10.0.2.15:9301]}
+[2015-07-27 08:40:46,927][INFO ][cluster.service          ] [Noh-Varr] new_master [Noh-Varr][OdbBKHIET9eIKzRXtogipA][inet[/10.0.2.15:9301]], reason: zen-disco-join (elected_as_master)
+[2015-07-27 08:40:47,010][INFO ][discovery                ] [Noh-Varr] elasticsearch/OdbBKHIET9eIKzRXtogipA
+[2015-07-27 08:40:47,028][INFO ][http                     ] [Noh-Varr] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/10.0.2.15:9201]}
+[2015-07-27 08:40:47,029][INFO ][node                     ] [Noh-Varr] started
+[2015-07-27 08:40:47,054][INFO ][gateway                  ] [Noh-Varr] recovered [0] indices into cluster_state
+[2015-07-27 09:28:46,215][INFO ][node                     ] [Noh-Varr] stopping ...
+[2015-07-27 09:28:46,608][INFO ][node                     ] [Noh-Varr] stopped
+[2015-07-27 09:28:46,608][INFO ][node                     ] [Noh-Varr] closing ...
+[2015-07-27 09:28:46,704][INFO ][node                     ] [Noh-Varr] closed
